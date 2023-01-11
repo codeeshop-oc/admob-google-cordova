@@ -20,9 +20,9 @@
     <clobbers target="window.tappx" />
   </js-module>
 
-  <hook type="after_plugin_add" src="scripts/100-prepare-admob-angular.js" />
+<!--   <hook type="after_plugin_add" src="scripts/100-prepare-admob-angular.js" />
   <asset src="www/angular-admob.js" target="lib/angular-admob/angular-admob.js" />
-
+ -->
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
